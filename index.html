@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>   </title>
+
+
+<!-- My CSS-->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">  
+
+
+<!-- Added link to the jQuery Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Javascript link -->
+<script src="assets/javascript/app.js"></script>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+
+</head>
+
+
+<body background="assets/images/background.jpg">
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <p id="header">Movie Trivia!</p>
+        </div>
+    </div>
+
+    <div class="start">
+        <p id="start">Start</p>
+    </div>
+
+
+    <form id="content">
+
+        <!-- timer will stop after an answer has been clicked -->
+
+        <div class="row">
+            <div class="col">
+                <p id="timer">Time Remaining: <span id="timerNumber">30</span></p>
+            </div>
+        </div>
+
+        <!-- depending on the outcome, different strings will be appended to this div -->
+
+        <div id="postQuestion">
+            <div>
+                <p id="outcome"></p>
+            </div>
+
+            <div>
+                <p id="showAnswer"></p>
+            </div>
+
+            <div id="imageInput">
+
+            </div>
+
+        </div>
+
+        <!-- Will be hidden after every question. New questions and options appended -->
+
+        <div class="row quiz">
+            <div class="col">
+                <p id="question">What was the top-grossing film for 2002?</p>
+
+                <div id="options" value="answer1"><p id="answer">Spider Man</p></div>
+                <div id="options" value="other1"><p id="option1">Signs</p></div>
+                <div id="options" value="other2"><p id="option2">Star Wars: Episode II</p></div>
+                <div id="options" value="other3"><p id="option3">My Big Fat Greek Wedding</p></div>
+
+            </div>
+        </div>
+
+
+    </form>
+
+    <div id="results">
+        <p id="allDone">All Done!</p>
+        <div>
+            <p>Correct: <span id="correct"></span></p>
+        </div>
+        <div>
+            <p>Incorrect: <span id="incorrect"></span></p>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+                
+
+
+
+
+
+
+
+</body>
+</html>
