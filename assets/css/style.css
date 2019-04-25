@@ -52,7 +52,7 @@ body {
     width:900px;
 }
 
-#option1, #option2, #option3, #answer  {
+#option1,#option2,#option3,#option4  {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 40px;
     justify-content: center;
