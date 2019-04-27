@@ -52,7 +52,7 @@ body {
     width:900px;
 }
 
-#option1,#option2,#option3,#option4  {
+.options {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 40px;
     justify-content: center;
@@ -61,9 +61,28 @@ body {
     width:700px;
 }
 
-#options:hover {
+.options:hover {
     background: rgba(200, 54, 54, 0.5);
     border: 1px solid blue;
 }
+
+#outcome {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    justify-content: center;
+    margin: 0px auto 15px auto;
+    text-align: center;
+    width:700px;
+}
+
+
+#image {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    margin: 0px auto 0px auto;
+    width:450px;
+}
+
 
 
